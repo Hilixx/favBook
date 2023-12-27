@@ -1,0 +1,16 @@
+{{#each userBooks}}
+<div class="card">
+    <h3>Título: {{this.title}}</h3>
+    <h4>Autor: {{this.writer}}</h4>
+    <p>Nota: {{this.feedback}}</p>
+    <p><a href="/books/phrasesAdd/{{this.title}}/{{userId}}">Adicionar Resenha ao livro</a></p>
+    <p><a href="/books/phrases/{{this.title}}/{{userId}}"> ver Resenha</a></p>
+</div>
+
+
+
+
+
+{{/each}}
+
+

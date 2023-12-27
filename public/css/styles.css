@@ -1,0 +1,65 @@
+.title{
+    font-size: 70px;
+    color: brown;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 0px;
+    background-color: rgb(0, 0, 0);
+}
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    
+}
+
+ #homeLinks{
+    color: brown;
+    border: 3px solid black;
+    text-decoration: none;
+    font-size: 40px;
+    background-color: rgb(193, 252, 252);
+    width: 500px;
+    margin-left: 700px;
+    padding: 10px;
+    box-shadow: 10px 5px 1px 2px;
+    
+    
+    
+}
+.formulario{
+    margin-left: 400px;
+    width: 60%;
+    margin-bottom: 40px;
+    font-size: 30px;
+    box-shadow: 4px 2px 1px 2px;
+    
+}
+
+#enviar{
+    background-color: rgb(0, 0, 0);
+    font-weight: 900;
+    border-radius: 100px;
+    color: white;
+}
+.subtitulo{
+    text-align: center;
+    
+}
+.accountLink{
+    font-size: 30px;
+    text-align: center;
+}
+
+.card{
+    display: inline-block;
+    padding: 50px;
+    background-color: wheat;
+    margin: 50px;
+    box-shadow: 5px 5px 2px 2px;
+    border-top-left-radius: 50px;
+    font-size: 20px;
+    text-decoration-style: none;
+    width: 500px;
+   
+}

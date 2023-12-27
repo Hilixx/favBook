@@ -1,0 +1,15 @@
+<header>
+    <link rel="stylesheet" href="/css/styles.css">
+    {{#if auth}}
+    <p id="homeLinks"><a href="/books/register/{{userId}}">Registrar livro</a></p>
+    <p id="homeLinks"><a href="/books/userBooks/{{userId}}">Meus livros</a></p>
+    <p id="homeLinks"><a href="">Minha conta</a></p>
+
+    
+
+    {{else}}
+    <p><a href="/user/login">logar</a></p>
+    <p><a href="/user/register">registrar</a></p>
+
+    {{/if}}
+</header>   

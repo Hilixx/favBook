@@ -1,0 +1,8 @@
+<h1 class="subtitulo">Cadastre o livro que você leu</h1>
+<form action="/books/register" method="post">
+<input type="hidden" name="userId" value="{{userId}}">
+<input class="formulario" type="text" name="bookName" placeholder="Nome do Livro">
+<input class="formulario" type="text" name="writer" placeholder="Escritor">
+<input class="formulario" type="number" name="feedback" placeholder="Feedback:0-10">
+<input class="formulario" id="enviar" type="submit" value="Cadastrar Livro">
+</form>

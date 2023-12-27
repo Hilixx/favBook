@@ -1,0 +1,9 @@
+<h1 class="subtitulo">Adicionar Resenha ao Livro</h1>
+<form action="/books/phrasesAdd" method="post">
+<input type="hidden" name="booksId" value="{{booksId}}">
+<input class="formulario" type="hidden" name="userId" value="{{userId}}">
+<input class="formulario" type="text" name="title" placeholder="titulo da resenha">
+<input class="formulario" type="text" name="phrase" placeholder="sobre">
+
+<input class="formulario" id="enviar" type="submit" value="Cadastrar Resenha">
+</form>
