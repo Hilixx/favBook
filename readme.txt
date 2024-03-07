@@ -1,0 +1,1 @@
+favbook é utilizado para usuarios que querem marcar partes favoritas de seus livros e frases favoritas, podendo dar notas e feedbacks para os livros, mostrando também os livros mais lidos para pessoas de determinada idade e região
